@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AngryBirds.Biblioteca")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd447b41a61001344df6624e2d6ff6da680c4be1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3700f07823fdf0993fefc3a107ee4d943ed9f146")]
 [assembly: System.Reflection.AssemblyProductAttribute("AngryBirds.Biblioteca")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AngryBirds.Biblioteca")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
