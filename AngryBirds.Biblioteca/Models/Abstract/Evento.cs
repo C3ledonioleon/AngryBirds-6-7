@@ -1,4 +1,4 @@
-namespace AngryBirds.Biblioteca;
+namespace AngryBirds.Biblioteca.Models.Abstract;
 
 public abstract class Evento
 {

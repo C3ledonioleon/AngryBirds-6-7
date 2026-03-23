@@ -1,4 +1,6 @@
-namespace AngryBirds.Biblioteca;
+using AngryBirds.Biblioteca.Models.Abstract;
+
+namespace AngryBirds.Biblioteca.Models;
 
 public class Bomb : Pajaro
 {
@@ -15,4 +17,4 @@ public class Bomb : Pajaro
 
         return fuerza > TopeFuerza ? TopeFuerza : fuerza;
     }
-}
+}                                                                                                                 

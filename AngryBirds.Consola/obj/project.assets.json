@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "AngryBirds.Biblioteca/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/AngryBirds.Biblioteca.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AngryBirds.Biblioteca.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "AngryBirds.Biblioteca/1.0.0": {
+      "type": "project",
+      "path": "../AngryBirds.Biblioteca/AngryBirds.Biblioteca.csproj",
+      "msbuildProject": "../AngryBirds.Biblioteca/AngryBirds.Biblioteca.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "AngryBirds.Biblioteca >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Celedonio\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Celedonio\\Documents\\GitHub\\AngryBirds-6-7\\AngryBirds.Biblioteca\\AngryBirds.Biblioteca.csproj": {
+              "projectPath": "C:\\Users\\Celedonio\\Documents\\GitHub\\AngryBirds-6-7\\AngryBirds.Biblioteca\\AngryBirds.Biblioteca.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

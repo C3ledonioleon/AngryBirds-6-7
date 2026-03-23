@@ -1,7 +1,8 @@
-namespace AngryBirds.Biblioteca;
+namespace AngryBirds.Biblioteca.Models;
 
 using System.Collections.Generic;
 using System.Linq;
+using AngryBirds.Biblioteca.Models.Abstract;
 
 public class IslaCerdito
 {

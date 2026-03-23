@@ -1,4 +1,6 @@
-﻿public abstract class Pajaro
+﻿
+namespace AngryBirds.Biblioteca.Models.Abstract;
+public abstract class Pajaro
 {
     public int Ira { get; set; }
     protected int VecesEnojado { get; set; }

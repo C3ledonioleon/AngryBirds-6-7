@@ -1,0 +1,7 @@
+# Carpetas de compilación (esto causa el error de Permission Denied)
+bin/
+obj/
+
+# Archivos de usuario de Visual Studio
+.vs/
+*.user

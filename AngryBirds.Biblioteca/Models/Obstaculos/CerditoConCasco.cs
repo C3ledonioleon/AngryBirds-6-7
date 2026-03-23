@@ -1,5 +1,6 @@
-namespace AngryBirds.Biblioteca;
+using AngryBirds.Biblioteca.Models.Abstract;
 
+namespace AngryBirds.Biblioteca.Models;
 
 public class CerditoConCasco : Obstaculo
 {

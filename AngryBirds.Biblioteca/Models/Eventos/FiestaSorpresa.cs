@@ -1,5 +1,7 @@
-namespace AngryBirds.Biblioteca;
-using System.Collections.Generic;
+using AngryBirds.Biblioteca.Models.Abstract;
+
+namespace AngryBirds.Biblioteca.Models;
+
 
 public class FiestaSorpresa : Evento
 {

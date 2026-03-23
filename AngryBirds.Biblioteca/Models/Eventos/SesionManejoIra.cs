@@ -1,4 +1,6 @@
-namespace AngryBirds.Biblioteca;
+using AngryBirds.Biblioteca.Models.Abstract;
+
+namespace AngryBirds.Biblioteca.Models;
 
 public class SesionManejoIra : Evento
 {
