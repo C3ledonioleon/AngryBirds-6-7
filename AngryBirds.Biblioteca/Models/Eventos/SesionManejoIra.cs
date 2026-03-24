@@ -4,13 +4,13 @@ namespace AngryBirds.Biblioteca.Models;
 
 public class SesionManejoIra : Evento
 {
-    public override void Aplicar(IslaPajaro isla)
+    public override void Suceder(IslaPajaro isla)
     {
         foreach (var pajaro in isla.Pajaros)
         {
             if (pajaro is not Chuck)
             {
-                pajaro.Ira -= 5;
+                pajaro.IraInicial -= 5;
             }
         }
     }

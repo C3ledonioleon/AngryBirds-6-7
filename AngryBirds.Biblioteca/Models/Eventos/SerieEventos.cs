@@ -12,11 +12,11 @@ public class SerieEventos : Evento
         this.eventos = eventos;
     }
 
-    public override void Aplicar(IslaPajaro isla)
+    public override void Suceder(IslaPajaro isla)
     {
         foreach (var evento in eventos)
         {
-            evento.Aplicar(isla);
+            evento.Suceder(isla);
         }
     }
 }

@@ -13,7 +13,7 @@ public class Bomb : Pajaro
 
     public override int ObtenerFuerza()
     {
-        int fuerza = Ira * 2;
+        int fuerza = IraInicial * 2;
 
         return fuerza > TopeFuerza ? TopeFuerza : fuerza;
     }

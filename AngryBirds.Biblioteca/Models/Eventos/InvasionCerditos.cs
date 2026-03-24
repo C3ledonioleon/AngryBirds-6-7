@@ -11,7 +11,7 @@ public class InvasionCerditos : Evento
         this.cantidad = cantidad;
     }
 
-    public override void Aplicar(IslaPajaro isla)
+    public override void Suceder(IslaPajaro isla)
     {
         int veces = cantidad / 100;
 

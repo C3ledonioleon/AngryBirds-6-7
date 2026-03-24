@@ -6,5 +6,5 @@ public class Red : Pajaro
 {
     public Red(int iraInicial) : base(iraInicial) { }
 
-    public override int ObtenerFuerza() => Ira * 10 * VecesEnojado;
+    public override int ObtenerFuerza() => IraInicial * 10 * VecesEnojado;
 }

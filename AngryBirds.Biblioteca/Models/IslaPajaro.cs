@@ -28,7 +28,7 @@ public class IslaPajaro
 
     public void AplicarEvento(Evento evento)
     {
-        evento.Aplicar(this);
+        evento.Suceder(this);
     }
 
     public void Atacar(IslaCerdito islaCerdito)

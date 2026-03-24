@@ -2,12 +2,12 @@
 namespace AngryBirds.Biblioteca.Models.Abstract;
 public abstract class Pajaro
 {
-    public int Ira { get; set; }
+    public int IraInicial { get; set; }
     protected int VecesEnojado { get; set; }
 
     protected Pajaro(int iraInicial)
     {
-        Ira = iraInicial;
+        IraInicial = iraInicial;
         VecesEnojado = 0;
     }
 
@@ -15,7 +15,7 @@ public abstract class Pajaro
 
     public virtual void Enojar()
     {
-        Ira *= 2;
+        IraInicial *= 2;
         VecesEnojado++;
     }
 }

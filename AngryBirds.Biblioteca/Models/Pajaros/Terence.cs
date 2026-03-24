@@ -11,5 +11,5 @@ public class Terence : Pajaro
         Multiplicador = multiplicador;
     }
 
-    public override int ObtenerFuerza() => Ira * VecesEnojado * Multiplicador;
+    public override int ObtenerFuerza() => IraInicial* VecesEnojado * Multiplicador;
 }

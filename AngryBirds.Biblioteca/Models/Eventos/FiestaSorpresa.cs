@@ -12,7 +12,7 @@ public class FiestaSorpresa : Evento
         this.homenajeados = homenajeados;
     }
 
-    public override void Aplicar(IslaPajaro isla)
+    public override void Suceder(IslaPajaro isla)
     {
         foreach (var pajaro in homenajeados)
         {
