@@ -5,18 +5,18 @@ namespace AngryBirds.Biblioteca.Models;
 
 public class SerieEventos : Evento
 {
-    private List<Evento> eventos;
+    public List<Evento> Eventos { get; private set; }
 
     public SerieEventos(List<Evento> eventos)
     {
-        this.eventos = eventos;
+        this.Eventos = eventos;
     }
 
-    public override void Suceder(IslaPajaro isla)
+    public override void Suceder(IslaPajaro islaPajaro)
     {
-        foreach (var evento in eventos)
+        foreach (var evento in Eventos)
         {
-            evento.Suceder(isla);
+            evento.Suceder(islaPajaro);
         }
     }
 }

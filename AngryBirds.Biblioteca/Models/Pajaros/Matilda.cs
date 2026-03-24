@@ -15,7 +15,7 @@ public class Matilda : Pajaro
 
     public override int ObtenerFuerza()
     {
-        return IraInicial * 2 + Huevos.Sum(h => h.Fuerza);
+        return IraInicial * 2 + Huevos.Sum(h => h.ObtenerFuerza());
     }
 
     public override void Enojar()

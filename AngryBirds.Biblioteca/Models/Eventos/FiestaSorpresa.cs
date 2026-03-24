@@ -5,16 +5,16 @@ namespace AngryBirds.Biblioteca.Models;
 
 public class FiestaSorpresa : Evento
 {
-    private List<Pajaro> homenajeados;
+    public   List<Pajaro> Homenajeados  { get; private set; }
 
     public FiestaSorpresa(List<Pajaro> homenajeados)
     {
-        this.homenajeados = homenajeados;
+        this.Homenajeados = homenajeados;
     }
 
-    public override void Suceder(IslaPajaro isla)
+    public override void Suceder(IslaPajaro islaPajaro)
     {
-        foreach (var pajaro in homenajeados)
+        foreach (var pajaro in Homenajeados)
         {
             pajaro.Enojar();
         }

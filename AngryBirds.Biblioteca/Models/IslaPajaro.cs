@@ -25,8 +25,8 @@ public class IslaPajaro
     {
         return ObtenerPajarosFuertes().Sum(p => p.ObtenerFuerza());
     }
-
-    public void AplicarEvento(Evento evento)
+    
+    public void SucedeEvento(Evento evento)
     {
         evento.Suceder(this);
     }

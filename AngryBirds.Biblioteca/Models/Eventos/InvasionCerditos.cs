@@ -4,18 +4,18 @@ namespace AngryBirds.Biblioteca.Models;
 
 public class InvasionCerditos : Evento
 {
-    private int cantidad;
+    public int Cantidad  {get; private set; }
 
     public InvasionCerditos(int cantidad)
     {
-        this.cantidad = cantidad;
+        this.Cantidad = cantidad;
     }
 
-    public override void Suceder(IslaPajaro isla)
+    public override void Suceder(IslaPajaro islaPajaro)
     {
-        int veces = cantidad / 100;
+        int veces = Cantidad / 100;
 
-        foreach (var pajaro in isla.Pajaros)
+        foreach (var pajaro in islaPajaro.Pajaros)
         {
             for (int i = 0; i < veces; i++)
             {
