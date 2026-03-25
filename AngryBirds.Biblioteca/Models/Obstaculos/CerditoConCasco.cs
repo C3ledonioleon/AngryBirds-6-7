@@ -1,15 +1,18 @@
 using AngryBirds.Biblioteca.Models.Abstract;
+using AngryBirds.Biblioteca.Models.Obstaculos;
 
 namespace AngryBirds.Biblioteca.Models;
 
-public class CerditoConCasco : Obstaculo
+public class CerditoConCasco : CerditoConArmas
 {
-    public int ResistenciaCasco { get; set; }
-
     public CerditoConCasco(int resistenciaCasco)
+        : base(resistenciaCasco)
     {
-        ResistenciaCasco = resistenciaCasco;
+        
     }
 
-    public override int ObtenerResistencia() => 10 * ResistenciaCasco;
+    public override int ObtenerResistencia()
+    {
+        return 10 * ResistenciaArma;
+    }
 }

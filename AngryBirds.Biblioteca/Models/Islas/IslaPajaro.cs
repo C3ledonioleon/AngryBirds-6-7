@@ -11,10 +11,6 @@ public class IslaPajaro
         Pajaros = new List<Pajaro>();
     }
 
-    public void AgregarPajaro(Pajaro pajaro)
-    {
-        Pajaros.Add(pajaro);
-    }
 
     public List<Pajaro> ObtenerPajarosFuertes()
     {
